@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+body {
+  margin: 0;
+  background-color: rgb(34, 34, 34);
+  font-family: 'Press Start 2P', sans-serif, cursive;
+  overflow-y: hidden;
+}
+
+.container {
+  width: 200px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  font-size: 30px;
+  font-family: 'Press Start 2P', sans-serif, cursive;
+}
+.left {
+  margin-left: 25px;
+  margin-top: 25px;
+}
+
+.right {
+  display: flex;
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  color: white;
+}
+.headline {
+  color: white;
+  text-align: center;
+  padding-top: 20px;
+  font-size: 40px;
+}
+.question-mark {
+  height: 10px;
+  width: 100%;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+}
+.container-bottom {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 150px;
+  padding-bottom: 100%;
+}
+
+.center {
+  text-align: center;
+  width: 100px;
+  height: 100px;
+  background-color: white;
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.input-left {
+  width: 250px;
+  height: 100px;
+  /* margin-left: 50px;
+  margin-top: 100px; */
+  border: 4px solid white;
+  background-color: rgb(34, 34, 34);
+  font-size: 50px;
+  color: white;
+  text-align: right;
+  font-family: 'Press Start 2P', sans-serif, cursive;
+}
+.btm-right {
+  color: white;
+  font-size: 20px;
+}
+.btm-left {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.main-btm-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: blue;
+  margin-bottom: 0;
+  gap: 70px;
+}
+
+p {
+  margin-block-start: 0;
+  margin-block-end: 0;
+  padding: 10px;
+}
+.signal {
+  padding-bottom: 95px;
+}
+
+button {
+  border: unset;
+}
